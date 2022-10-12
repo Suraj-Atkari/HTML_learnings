@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: 'Heebo', sans-serif; ;
+}
+
+ul{
+  padding: 0;
+  margin: 0
+}
+
+header{
+  background-color: #fff;
+  box-shadow:  0 1px 6px 0 rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px
+}
+
+header .logo{
+  display: inline-block;
+}
+
+header nav{
+  display: inline-block;
+}
+
+header nav ul li{
+  display: inline-block;
+  
+}
+
+header nav ul li a{
+  color: #3E3E3E;
+  font-size: 15px;
+  letter-spacing: 0.37px;
+  margin: 24px;
+  text-decoration: none;
+}
+
+header nav ul li:last-of-type a{
+  margin: 0%;
+}
